@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/colorPrimary"
+    tools:context=".Data">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#3F6EB5"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="DSKM"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#CDDC39"
+            android:textSize="36sp" />
+
+        <EditText
+            android:id="@+id/nameResultId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+
+            />
+        <EditText
+            android:id="@+id/subjectEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="subject"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+
+            />
+
+        <EditText
+            android:id="@+id/marksEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="marks"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+
+            />
+
+        <EditText
+            android:id="@+id/gradeEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="grade"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+
+            />
+
+        <Button
+            android:id="@+id/saveResultId"
+            style="@android:style/Widget.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginTop="20dp"
+            android:background="#344DC7"
+            android:text="SAVE RESULT"
+
+            android:textColor="#8BC34A"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
